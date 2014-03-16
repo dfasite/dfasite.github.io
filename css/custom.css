@@ -1,0 +1,204 @@
+
+/* Home Page */
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  background-image: url('/Users/grub/Desktop/dfasite/img/homepage.jpg');
+  width: 100%;
+  height: 100%;
+  /*-webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);*/
+  /*background-color: #383838;*/
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  height: 100%;
+
+}
+
+.logo {
+  position: absolute;
+}
+
+.word {
+  position: absolute;
+  top: 30%;
+  left: 22%;
+}
+
+.row {
+  position: relative;
+  left: 15%;
+  top: 60%;
+  width: 100%;
+}
+
+.col-md {
+  cursor: pointer;
+  width: 15%;
+  float: left;
+  min-height: 1px;
+  position: relative;
+  opacity: 0.6;
+}
+
+
+/*.col-md:hover {
+  border: 5px solid rgb(0, 128, 128); color:rgb(0, 128, 128);
+}
+*/
+/*General Usage*/
+h1 {
+  font-size: 4em;
+  letter-spacing: -2px;
+  font-weight: 200;
+  text-align: center;
+  color: #989898;
+}
+
+h2 {
+  font-size: 2em;
+  letter-spacing: -1px;
+  text-align: center;
+  font-weight: 100;
+  color: #989898;
+}
+
+h3 {
+  font-size: 2em;
+  letter-spacing: -1px;
+  text-align: center;
+  font-weight: 100;
+  color: #989898
+}
+
+h4 {
+  font-size: 1.0em;
+  text-align: left;
+  font-weight: 100;
+  color: #989898;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  text-align: left;
+  font-weight: 100;
+  color: #504A4B;
+}
+
+hr {
+	border-top-color: rgb(0, 128, 128);
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-right-color: initial;
+	border-right-style: initial;
+	border-right-width: 5px;
+	border-bottom-color: initial;
+	border-bottom-style: initial;
+	border-bottom-width: 5px;
+	border-left-color: initial;
+	border-left-style: initial;
+	border-left-width: 5px;
+}
+
+
+/* contact page */
+.nav {
+  height: 145px;
+  background-color: white;
+}
+
+.innernav {
+  float: right;
+  height: 100%;
+  width: 60%;
+}
+
+.navtab {
+  margin-top: 4%;
+  float: right;
+  height: 100%;
+  width: 27%;
+  text-align: center;
+}
+
+.contact-tab {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+
+.contact-bigtab {
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+
+.contact-top {
+  height: 420px;
+  background-color: rgb(0, 128, 128);
+}
+
+.contact-middle {
+  height: 270px;
+  background-color: white;
+}
+
+.contact-bottom {
+  height: 120px;
+  background-color:black; 
+}
+
+.contact-bottom-social {
+  width:50%;
+}
+
+/* Who */
+.who-middle {
+  height: 280px;
+  background-color: white;
+}
+
+.who-bottom {
+  height: 140px;
+  background-color: #383838;
+}
+
+.who-bottom-pic {
+  height: 240px;
+  background-color: #383838;
+}
+
+.who-last {
+  height: 100px;
+  background-color: black;
+}
+
+.who-bottom-picture {
+  float: left;
+  width: 17%;
+  height: 90%;
+  /*background-color: white;*/
+}
+
+/* project */
+.project-middle {
+  height: 1000px;
+  background-color: #383838;
+}
+
+/* what */
+.what-middle {
+  height: 180px;
+  background-color: white; 
+}
